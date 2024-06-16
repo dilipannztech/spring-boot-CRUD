@@ -938,4 +938,22 @@ student/studentServices.java
 
 ---
 
-# TESTING
+# PACKING AND RUNNING APPLICATION
+
+- delete target folder
+- go to maven → demo → lifecycle → clean
+- go to maven → demo → lifecycle → install
+
+**then you can able to get the jar file**
+
+- navigate to the
+
+target → YOUR_JAR_FILE.jar
+
+- then run the
+
+java -jar demo-0.0.1-SNAPSHOT.jar
+
+- to run in different instance (different ports)
+
+java -jar demo-0.0.1-SNAPSHOT.jar --server.port=8081
